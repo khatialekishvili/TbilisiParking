@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1440, initial-scale=1.0">
+  <title>WHROOM - დაჯავშნა</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+</head>
+<body>
+  <header class="main-header" id="header">
+    <div class="container">
+      <div class="logo">
+        <img src="assets/logo.png" onclick="location.href='index.html'" alt="WHROOM logo">
+      </div>
+      <form class="search-bar">
+        <input type="text" placeholder="ძებნა" aria-label="ძებნა">
+        <button type="submit" aria-label="ძებნა">
+          <img src="assets/header buttons/map_search.svg" alt="">
+        </button>
+      </form>
+      <nav class="header-icons">
+        <a href="index.html" title="Parking" ><img id="icon-parking" src="assets/header buttons/parking.svg" alt=""></a>
+        <a href="#" title="Add"><img id="icon-add" src="assets/header buttons/add_card.svg" alt=""></a>
+        <a href="#" title="Mail"><img id="icon-mail" src="assets/header buttons/mail.svg" alt=""></a>
+        <img src="assets/header buttons/user.svg" alt="User" class="user-avatar" onclick="location.href='profile.html'">
+        <button id="night-toggle" class="night-toggle" aria-label="ღამის რეჟიმი">🌙</button>
+      </nav>
+
+      <button id="burger" class="burger" aria-label="მენიუ">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobileNav">
+      <button class="close-menu" id="closeMenu" aria-label="დახურვა">&times;</button>
+      <ul>
+      <li><a href="index.html">მთავარი</a></li>
+      <li><a href="#">ბარათის დამატება</a></li>
+      <li><a href="#">შეტყობინებები</a></li>
+      <li><a href="profile.html">პროფილი</a></li>
+      <li><button class="night-toggle" id="night-toggle-mobile">ღამის რეჟიმი</button></li>
+    </ul>
+    
+    </nav>
+  </header>
+
+  <main>
+  <div class="main-content-container">
+    <div class="booking-content">
+      <div class="booking-left">
+        <img src="assets/parking1.jpg" alt="Parking" class="booking-photo">
+        <div class="booking-details-columns">
+          <div class="booking-clock-col">
+            <img src="assets/booking/clock.png" alt="Clock" class="booking-clock-img">
+          </div>
+          <div class="booking-info-col">
+            <div class="booking-title-row">
+              <h2 class="booking-title">ჯავშანი</h2>
+              <div class="booking-address-inline">
+                <img src="assets/booking/location.svg" alt="Location" class="booking-location-icon">
+                <span>ი.ჭავჭავაძის გამზირი <br>N82</span>
+              </div>
+            </div>
+            <form class="booking-form-col">
+              <div class="booking-inputs-row">
+                <input type="date" placeholder="დაწყების დღე">
+                <input type="date" placeholder="დამთავრების დღე">
+              </div>
+              <div class="booking-buttons-row">
+                <button class="cta-btn" id="booking" type="submit">დაჯავშნა</button>
+                <button class="cta-btn cancel" type="button">გაუქმება</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="booking-right">
+        <img id="parking-layout-img" src="assets/booking/parking_layout.png" alt="Parking Layout">
+      </div>
+    </div>
+  </div>
+</main>
+  <script src="script.js"></script>
+</body>
+</html>

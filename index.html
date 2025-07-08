@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1440, initial-scale=1.0">
+  <title>WHROOM</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+</head>
+<body>
+  <header class="main-header" id="header">
+    <div class="container">
+      <div class="logo">
+        <img src="assets/logo.png" alt="WHROOM logo" onclick="location.href='index.html'">
+      </div>
+      <form class="search-bar">
+        <input type="text" placeholder="ძებნა" aria-label="ძებნა">
+        <button type="submit" aria-label="ძებნა">
+          <img src="assets/header buttons/map_search.svg" alt="">
+        </button>
+      </form>
+      <nav class="header-icons">
+        <a href="index.html" title="Parking"><img id="icon-parking" src="assets/header buttons/parking.svg" alt=""></a>
+        <a href="#" title="Add"><img id="icon-add" src="assets/header buttons/add_card.svg" alt=""></a>
+        <a href="#" title="Mail"><img id="icon-mail" src="assets/header buttons/mail.svg" alt=""></a>
+        <img src="assets/header buttons/user.svg" alt="User" class="user-avatar" onclick="location.href='profile.html'">
+        <button id="night-toggle" class="night-toggle" aria-label="ღამის რეჟიმი">🌙</button>
+      </nav>
+      <button id="burger" class="burger" aria-label="მენიუ">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobileNav">
+      <button class="close-menu" id="closeMenu" aria-label="დახურვა">&times;</button>
+      <ul>
+      <li><a href="index.html">მთავარი</a></li>
+      <li><a href="#">ბარათის დამატება</a></li>
+      <li><a href="#">შეტყობინებები</a></li>
+      <li><a href="profile.html">პროფილი</a></li>
+      <li><button class="night-toggle" id="night-toggle-mobile">ღამის რეჟიმი</button></li>
+    </ul>
+    
+    </nav>
+  </header>
+  <main>
+    <div class="main-content-container">
+      <div class="main-content">
+        <section class="map-section">
+          <div class="map-placeholder">
+            <img src="assets/Map1.png" alt="Map">
+          </div>
+        </section>
+        <aside class="info-box">
+          <h2>იპოვე</h2>
+          <p>თქვენი ინტერესების მიხედვით კომფორტული ადგილი, მარტივი მართვა, სწრაფად და უსაფრთხოდ</p>
+          <button class="cta-btn" onclick="location.href='booking.html'">დაჯავშნა</button>
+
+        </aside>
+      </div>
+      <section class="parking-list">
+        <div class="parking-grid" id="parkingGrid" onclick="location.href='booking.html'"> <!--მომაქვს პარკინგ ქარდები ---> </div>
+          </article>
+        </div>
+      </section>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+[
+  {
+    "title": "პარკინგი 1",
+    "address": "ი.ჭავჭავაძის გამზირი N82",
+    "image": "assets/parking1.jpg"
+  },
+  {
+    "title": "პარკინგი 2",
+    "address": "ა.წერეთლის გამზირი N51",
+    "image": "assets/parking2.jpg"
+  },
+  {
+    "title": "პარკინგი 3",
+    "address": "ბაგების ქუჩა N19",
+    "image": "assets/parking2.jpg"
+  },
+  {
+    "title": "პარკინგი 4",
+    "address": "კოსტავას ქუჩა N12",
+    "image": "assets/parking2.jpg"
+  },
+  {
+    "title": "პარკინგი 5",
+    "address": "რუსთაველის გამზირი N51",
+    "image": "assets/parking2.jpg"
+  },
+  {
+    "title": "პარკინგი 6",
+    "address": "გაგარინის ქუჩა N15",
+    "image": "assets/parking2.jpg"
+  },
+  {
+    "title": "პარკინგი 7",
+    "address": "თამარ მეფის გამზირი N11",
+    "image": "assets/parking2.jpg"
+  },
+  {
+    "title": "პარკინგი 8",
+    "address": "ჭავჭავაძის ქუჩა N7",
+    "image": "assets/parking2.jpg"
+  }
+]

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1440, initial-scale=1.0">
+  <title>WHROOM - პროფილი</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+</head>
+<body>
+  <header class="main-header" id="header">
+    <div class="container">
+      <div class="logo">
+        <img src="assets/logo.png" onclick="location.href='index.html'" alt="WHROOM logo">
+      </div>
+      <form class="search-bar">
+        <input type="text" placeholder="ძებნა" aria-label="ძებნა">
+        <button type="submit" aria-label="ძებნა">
+          <img src="assets/header buttons/map_search.svg" alt="">
+        </button>
+      </form>
+      <nav class="header-icons">
+        <a href="index.html" title="Parking"><img id="icon-parking" src="assets/header buttons/2parking.svg" alt=""></a>
+        <a href="#" title="Add"><img id="icon-add" src="assets/header buttons/add_card.svg" alt=""></a>
+        <a href="#" title="Mail"><img id="icon-mail" src="assets/header buttons/mail.svg" alt=""></a>
+        <img src="assets/header buttons/user.svg" alt="User" class="user-avatar" onclick="location.href='profile.html'">
+        <button id="night-toggle" class="night-toggle" aria-label="ღამის რეჟიმი">🌙</button>
+      </nav>
+      <button id="burger" class="burger" aria-label="მენიუ">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobileNav">
+      <button class="close-menu" id="closeMenu" aria-label="დახურვა">&times;</button>
+      <ul>
+      <li><a href="index.html">მთავარი</a></li>
+      <li><a href="#">ბარათის დამატება</a></li>
+      <li><a href="#">შეტყობინებები</a></li>
+      <li><a href="profile.html">პროფილი</a></li>
+      <li><button class="night-toggle" id="night-toggle-mobile">ღამის რეჟიმი</button></li>
+    </ul>
+    </nav>
+    </div>
+  </header>
+  
+  <main>
+  <div class="main-content-container">
+    <div class="profile-top-row">
+      <div class="profile-user-info">
+        <img src="assets/profilepic.png" alt="User Photo" class="profile-photo">
+        <div class="profile-info">
+          <div class="profile-name">ხატია ლეკიშვილი</div>
+          <div class="profile-car">RE789AL</div>
+          <div class="profile-id">01234567891</div>
+        </div>
+      </div>
+      <div class="profile-package">
+        <h2 class="profile-active-title">მიმდინარე პაკეტი</h2>
+        <div class="active-card">
+          <div class="active-card-inner">
+            <div>1 თვე<br>zonal<br>xx ₾</div>
+          </div>
+          <div class="active-card-details">
+            აქტიურია 21/12/2024<br>
+            დასრულების თარიღი: 21/12/2024
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <section class="transactions">
+      <h3 class="transactions-title">ტრანზაქციები</h3>
+      <div class="transactions-list">
+  <div class="transaction-card">
+    <img src="assets/profile/tbilisi_card.png" alt="Card" class="transaction-card-img">
+    <div class="transaction-details">
+      <div>მიმდინარე ბარათი</div>
+      <button class="pay-btn">გადახდა</button>
+    </div>
+  </div>
+</div>
+
+    </section>
+  </div>
+</main>
+
+  <script src="script.js"></script>
+</body>
+</html>
