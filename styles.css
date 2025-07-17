@@ -937,3 +937,47 @@ body.dark-mode .cta-btn.cancel {
     width: 90px;
   }
 }
+
+
+.site-footer {
+  background-color: #232c3a; /* teal color similar to screenshot */
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.social-icons {
+  margin-bottom: 20px;
+}
+
+.social-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  line-height: 40px;
+  border-radius: 50%;
+  background: white;
+  color: #207a89;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.contact-info p {
+  margin: 6px 0;
+}
+
+.phone, .email {
+  margin: 0 15px;
+  display: inline-block;
+}
+
+.footer-logo {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.2;
+}

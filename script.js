@@ -212,4 +212,3 @@ fetch('transactions.json')
       }
     });
   });
-
