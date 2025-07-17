@@ -940,12 +940,13 @@ body.dark-mode .cta-btn.cancel {
 
 
 .site-footer {
-  background-color: #232c3a; /* teal color similar to screenshot */
+  background-color: #232c3a;
   color: white;
   text-align: center;
   padding: 40px 20px;
   font-family: Arial, sans-serif;
   font-size: 14px;
+  margin-top: 50px;
 }
 
 .social-icons {
